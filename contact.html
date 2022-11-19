@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <link rel="stylesheet" href="css/css-reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5b66e691c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PÂTISSERIE colline du nor | Contact us</title>
+  </head>
+  <body>
+    <div class="bg-pink h100p">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="img/logo.png"
+                alt="PÂTISSERIE colline du nor"
+              />
+            </a>
+          </div>
+          <nav>
+            <div class="navbutton">
+              <a href="index.html#product" class="nav-btn"
+                ><span>Product</span></a
+              >
+
+              <div class="drop-down">
+                <div class="navbutton">
+                  <a href="index.html#cake" class="nav-btn"
+                    ><span>ケーキ</span></a
+                  >
+                </div>
+                <div class="navbutton">
+                  <a href="index.html#gift" class="nav-btn"><span>焼き菓子</span></a>
+                </div>
+                <div class="navbutton">
+                  <a href="index.html#chocolate" class="nav-btn"
+                    ><span>チョコレート</span></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="navbutton">
+              <a href="index.html#access" class="nav-btn bgleft"
+                ><span>Access</span></a
+              >
+            </div>
+            <div class="navbutton">
+              <a href="index.html" class="nav-btn bgleft"><span>Home</span></a>
+            </div>
+          </nav>
+        </header>
+
+        <main class="contactmain">
+          <h1>Contact Us</h1>
+          <p>お問い合わせ　／　ご予約(ケーキ)</p>
+          <!-- <p class="text-right"><a href="#" class="btn">Scroll</a></p> -->
+          <div class="formArea">
+          <form action="mail.php" method="post">
+            
+            <div class="inputwrapper">
+              <label for="name" class="newline">お名前</label>
+              <input type="text" name="name" id="name" placeholder="お名前" />
+            </div>
+
+            <div class="inputwrapper">
+              <label for="email" class="newline">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="xxx@sample.com"
+              />
+            </div>
+
+            <div class="inputwrapper">
+              <label for="phone" class="newline">お電話番号</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+              />
+            </div>
+
+            <div class="inputwrapper">
+              <input type="radio" name="contactpref" id="inquiry"><label for="inquiry">お問い合わせ</label>
+              <input type="radio" name="contactpref" id="reserve"><label for="reserve">ご予約(ケーキ)</label>
+            </div>
+
+            <div class="inputwrapper">
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="お問い合わせ内容"></textarea>
+            </div>
+
+            <div class="inputwrapper">
+              <p>ケーキご予約の場合</p>
+              <label for="cake" class="newline">ご希望の種類</label>
+              <select name="cake" id="cake">
+              <option value="aniversary">アニバーサリーケーキ</option>
+              <option value="aniversary">誕生日ケーキ</option>
+              <option value="aniversary">イラスト・似顔絵ケーキ</option>
+              </select>
+            </div>
+
+            <div class="inputwrapper">
+              <label for="emailsub" class="newline">お受け取りご希望日</label>
+              <input type="date" name="delivery" id="delivery">
+            </div>
+              
+            <div class="inputwrapper">
+              <input type="checkbox" name="emailsub" id="emailsub" value="signup" checked>
+              <label for="emailsub">Newsletterの購読を希望する</label>
+            </div>
+            <div class="inputwrapper text-center"><a type="submit" value="送信" href="#" class="btn">送信</a></div>
+           
+          </div>
+          </form>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
